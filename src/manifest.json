@@ -12,5 +12,8 @@
     "page": "options/options.html",
     "chrome_style": true
   },
-  "version":     "0.0.1"
+  "icons": {
+    "128": "github-mac_128px.png"
+  },
+  "version":     "0.1.0"
 }
