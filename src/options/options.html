@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<link rel="stylesheet" href="options.css" />
+
+<form>
+    <label><span>Enter absolute base path for cloned repositories</span>
+        <input id="base" type="text"></label>
+    <label><span>Enter application template, %base%, %projectname% and %filepath% are allowed</span>
+        <input id="template" type="text" placeholder="idea://open?file=%base%/%projectname%/%filepath%"></label>
+    <input type="submit" value="Save" />
+    <span id="status"></span>
+</form>
+
+<script src="options.js"></script>
+</body>
+</html>
